@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aplikasikalkulatorbidangdatar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AplikasiKalkulatorBidangDatar">
+        <activity
+            android:name=".PilihanLingkaran"
+            android:exported="true" />
+        <activity
+            android:name=".MenghitungLingkaranJariJari"
+            android:exported="true" />
+        <activity
+            android:name=".MenghitungSegitigaSembarang"
+            android:exported="true" />
+        <activity
+            android:name=".PilihanSegiitiga"
+            android:exported="true" />
+        <activity
+            android:name=".PilihanPersegi"
+            android:exported="true" />
+        <activity
+            android:name=".MenghitungPersegiPanjang"
+            android:exported="true" />
+        <activity
+            android:name=".MenghitungPersegi"
+            android:exported="true" />
+        <activity
+            android:name=".MenghitungLingkaran"
+            android:exported="true" />
+        <activity
+            android:name=".MenghitungSegitiga"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

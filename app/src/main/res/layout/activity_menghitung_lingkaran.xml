@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenghitungLingkaran"
+    android:orientation="vertical"
+    android:background="@drawable/background_image_one_signin"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="539dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/diameter"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:hint="Masukan Diameter Lingkaran"
+            android:paddingLeft="15dp"
+            android:textColorHint="#74716A" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/calculate_Lingkaran"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:background="@drawable/bgbtn"
+            android:text="Calculate"
+            android:textAllCaps="false" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="102dp"
+            android:text="Keliling" />
+
+        <TextView
+            android:id="@+id/hasil_keliling_lingkaran"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:background="@drawable/btn"
+            android:gravity="center" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="102dp"
+            android:text="Luas" />
+
+        <TextView
+            android:id="@+id/hasil_luas_lingkaran"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btn"
+            android:gravity="center" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
